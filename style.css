@@ -1,0 +1,168 @@
+body{
+    font-family: 'Syne', sans-serif;
+    overflow: hidden;
+    color: white;
+    background-color: white;
+    background-image: url(img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.container{
+    /* position: relative; */
+    width: 100%;
+    height: 820px;
+    /* background: rgb(15,15,15);
+    background: linear-gradient(100deg, rgba(15,15,15,1) 19%, rgba(89,89,92,1) 87%);  */
+    background-image: url(img/wave-haikei.svg);
+    background-size: 2100px;
+}
+
+.menu{
+    margin-top: 100px;
+}
+
+a:hover{
+    color: rgb(65, 65, 65);
+}
+.social a:hover{
+    transition: .3s;
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px 6px 3px 6px;
+}
+
+.intro{
+    position: absolute;
+    width: 745px;
+    height: fit-content;
+    /* background-color: brown; */
+    padding: 5px;
+    top: 245px;
+    left: 40px;
+}
+
+.name{
+    font-size:99px;
+}
+
+.story{
+    position: absolute;
+    width: 700px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 23px;
+    padding: 5px;
+}
+
+.profileimage{
+    position: absolute;
+    height: 690px;
+    width: 400px;
+    background-image: url(img/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg);
+    top: 70px;
+    left: 1200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: -20px 20px #656565;
+    filter: grayscale(150%);
+    box-sizing: border-box;
+}
+ 
+.profileimage p{
+    opacity: 0;
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 66px;
+    transition: .3s;
+}
+
+.profileimage:hover p{
+    opacity: 1;
+}
+
+.social{
+    padding-top: 8px;
+    padding: 5px;
+    position: absolute;
+    top: 475px;
+    left: 45px;
+}
+
+.about{
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 50px;
+    position: absolute;
+    /* padding: 2px 2px 2px 0; */
+}
+
+.about p{
+    display: inline-block;
+}
+
+.about:hover a{
+    /* color: rgb(65, 65, 65); */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about:hover svg{
+    transform: translate(145px, 0px);
+    transition: .3s;
+}
+
+.about:hover p{
+    transform: translate(-45px, 0px);
+    transition: .3s;
+}
+
+.project{
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 110px;
+    position: absolute;
+    /* padding: 2px 2px 2px 0; */
+}
+
+.project p{
+    display: inline-block;
+}
+
+.project:hover a{
+    /* color: rgb(65, 65, 65); */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.project:hover svg{
+    transform: translate(235px, 0px);
+    transition: .3s;
+}
+
+.project:hover p{
+    transform: translate(-45px, 0px);
+    transition: .3s;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
