@@ -108,7 +108,9 @@ a:hover{
     font-size: 50px;
     margin-top: 50px;
     position: absolute;
-    /* padding: 2px 2px 2px 0; */
+    top: 500px;
+    left: 40px;
+    padding-left: 5px;
 }
 
 .about p{
@@ -138,7 +140,9 @@ a:hover{
     font-size: 50px;
     margin-top: 110px;
     position: absolute;
-    /* padding: 2px 2px 2px 0; */
+    top: 500px;
+    left: 40px;
+    padding-left: 5px;
 }
 
 .project p{
