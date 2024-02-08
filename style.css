@@ -2,8 +2,12 @@ body{
     font-family: 'Syne', sans-serif;
     overflow: hidden;
     color: white;
-    background-color: white;
+    background-color: black;
     background-image: url(img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+    background-size: 1920px 920px;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
 }
 
 a{
@@ -19,12 +23,14 @@ a{
 
 .container{
     /* position: relative; */
-    width: 100%;
+    width: 1920px;
     height: 820px;
     /* background: rgb(15,15,15);
     background: linear-gradient(100deg, rgba(15,15,15,1) 19%, rgba(89,89,92,1) 87%);  */
     background-image: url(img/wave-haikei.svg);
     background-size: 2100px;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .menu{
@@ -67,11 +73,10 @@ a:hover{
 
 .profileimage{
     position: absolute;
-    height: 690px;
-    width: 400px;
-    background-image: url(img/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg);
-    top: 70px;
-    left: 1200px;
+    /* height: 690px;
+    width: 400px; */
+    height: 500px;
+    width: 340px;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -79,13 +84,28 @@ a:hover{
     filter: grayscale(150%);
     box-sizing: border-box;
 }
+
+.profileimage.death{
+    background-image: url(img/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg);
+    top: 300px;
+    left: 1000px;
+    /* top: 70px;
+    left: 1370px; */
+}
+
+.profileimage.life{
+    background-image: url(img/conner-baker-sIjMLE3TX0A-unsplash.jpg);
+    top: 80px;
+    left: 1450px;
+    /* top: 190px;
+    left: 1100px; */
+}
  
 .profileimage p{
     opacity: 0;
     font-size: 11px;
-    position: absolute;
-    bottom: 8px;
-    right: 66px;
+    margin-top: 475px;
+    margin-left: 15px;
     transition: .3s;
 }
 
@@ -111,6 +131,7 @@ a:hover{
     top: 500px;
     left: 40px;
     padding-left: 5px;
+    /* padding: 2px 2px 2px 0; */
 }
 
 .about p{
@@ -140,9 +161,10 @@ a:hover{
     font-size: 50px;
     margin-top: 110px;
     position: absolute;
-    top: 500px;
+    top: 505px;
     left: 40px;
     padding-left: 5px;
+    /* padding: 2px 2px 2px 0; */
 }
 
 .project p{
