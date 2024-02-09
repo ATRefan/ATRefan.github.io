@@ -136,21 +136,77 @@ a:hover{
 
 .about p{
     display: inline-block;
+    
 }
 
 .about:hover a{
     /* color: rgb(65, 65, 65); */
     background-color: white;
     border-radius: 10px;
+    color: rgb(65, 65, 65);
 }
 
-.about:hover svg{
-    transform: translate(145px, 0px);
+.about:hover #main{
+    transform: translate(145px, 0px) rotate(90deg);
     transition: .3s;
 }
 
-.about:hover p{
+.about:hover .skills{
     transform: translate(-45px, 0px);
+    transition: .3s;
+}
+
+.dropskills{
+    display: none;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background-color: white;
+    color: rgb(65, 65, 65);
+    margin-top: 5px;
+    /* position: relative; */
+    /* background-color: aqua; */
+}
+
+.dropskills div{
+    padding: 4px;
+    border-top: 7px solid #0c0c09;
+}
+
+.about:hover .dropskills{
+    position: fixed;
+    z-index: 9999;
+    display: block;
+}
+
+.progskills:hover svg{
+    transform: translate(275px, 0px);
+    transition: .3s;
+}
+
+.progskills:hover p{
+    transform: translate(-25px, 0px);
+    transition: .3s;
+}
+
+.progtools:hover svg{
+    transform: translate(275px, 0px);
+    transition: .3s;
+}
+
+.progtools:hover p{
+    transform: translate(-25px, 0px);
+    transition: .3s;
+}
+
+.designtools:hover svg{
+    transform: translate(275px, 0px);
+    transition: .3s;
+}
+
+.designtools:hover p{
+    transform: translate(-25px, 0px);
     transition: .3s;
 }
 
@@ -162,29 +218,39 @@ a:hover{
     margin-top: 110px;
     position: absolute;
     top: 505px;
+    /* top: 530px; */
     left: 40px;
     padding-left: 5px;
     /* padding: 2px 2px 2px 0; */
 }
 
-.project p{
+.project .projecticon{
     display: inline-block;
+}
+
+.project .projectclick{
+    display: none;
 }
 
 .project:hover a{
     /* color: rgb(65, 65, 65); */
     background-color: white;
     border-radius: 10px;
+    transition: .5s;
 }
 
 .project:hover svg{
-    transform: translate(235px, 0px);
+    transform: translate(323px, 0px);
     transition: .3s;
 }
 
-.project:hover p{
+.project:hover .projectclick{
+    display: inline-block;
     transform: translate(-45px, 0px);
-    transition: .3s;
+}
+
+.project:hover .projecticon{
+    display: none;
 }
 
 .footer{
