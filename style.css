@@ -190,6 +190,28 @@ a:hover{
     transition: .3s;
 }
 
+.progskills .language table{
+    /* display: none; */
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    left: 300px;
+    opacity: 0;
+}
+
+.progskills .language td{
+    border: 7px solid #0c0c09;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+.progskills:hover .language table{
+    /* display: block; */
+    opacity: 1;
+    transition: .3s;
+}
+
 .progtools:hover svg{
     transform: translate(275px, 0px);
     transition: .3s;
@@ -197,6 +219,29 @@ a:hover{
 
 .progtools:hover p{
     transform: translate(-25px, 0px);
+    transition: .3s;
+}
+
+.progtools .tools table{
+    /* display: none; */
+    width: fit-content;
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    left: 300px;
+    opacity: 0;
+}
+
+.progtools .tools td{
+    border: 7px solid #0c0c09;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+.progtools:hover .tools table{
+    /* display: block; */
+    opacity: 1;
     transition: .3s;
 }
 
@@ -209,6 +254,30 @@ a:hover{
     transform: translate(-25px, 0px);
     transition: .3s;
 }
+
+.designtools .tools table{
+    /* display: none; */
+    width: 310px;
+    position: absolute;
+    background-color: white;
+    top: 80px;
+    left: 300px;
+    opacity: 0;
+}
+
+.designtools .tools td{
+    border: 7px solid #0c0c09;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+.designtools:hover .tools table{
+    /* display: block; */
+    opacity: 1;
+    transition: .3s;
+}
+
 
 .project{
     border-radius: 10px;
