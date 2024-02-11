@@ -344,8 +344,9 @@ a:hover{
 }
 
 .projectcontainer{
+    /* position: fixed; */
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 100px 310px;
     background-color: #0c0c09;
     opacity: 0.9;
     width: 1300px;
