@@ -322,6 +322,41 @@ a:hover{
     display: none;
 }
 
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    transition: .3s;
+    /* menyembunyikan elemen ketika baru load */
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.overlay:target{
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .8);
+}
+
+.projectcontainer{
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: #0c0c09;
+    opacity: 0.9;
+    width: 1300px;
+    height: 720px;
+}
+
+.projectnav{
+    font-size: 70px;
+    text-align: center;
+    line-height: 720px;
+}
 .footer{
     background-color: black;
     width: 100%;
