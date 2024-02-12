@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     width: 1920px;
     height: 1080px;
+    /* border: 20px solid grey; */
 }
 
 a{
@@ -160,15 +161,15 @@ a:hover{
     border-radius: 10px;
     color: rgb(65, 65, 65);
 }
+
 .dropskills{
     display: none;
     width: 300px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    /* margin-top: 5px; */
+    /* margin-bottom: 10px; */
     font-size: 25px;
     background-color: white;
     color: rgb(65, 65, 65);
-    margin-top: 5px;
     /* position: relative; */
     /* background-color: aqua; */
 }
